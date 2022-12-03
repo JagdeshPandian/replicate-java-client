@@ -49,7 +49,7 @@ class ReplicateClientMain extends groovy.lang.Script {
 		
 		ReplicateJavaClient modelClient = new ReplicateJavaClient(apiKey, modelName, modelVersion)
 		
-		String prompt = "mdjrny-v4 style portrait of female elf, intricate, elegant, highly detailed, digital painting, artstation, concept art, smooth, sharp focus, illustration, art by artgerm and greg rutkowski and alphonse mucha, 8k"
+		String prompt = "mdjrny-v4 style portrait of female dragon, intricate, elegant, highly detailed, digital painting, artstation, concept art, smooth, sharp focus, illustration, art by artgerm and greg rutkowski and alphonse mucha, 8k"
 		
 		Integer width = 512
 		
@@ -91,7 +91,7 @@ class ReplicateClientMain extends groovy.lang.Script {
 			
 			HttpGet httpget = new HttpGet( f )
 			
-			HttpResponse httpresponse = httpclient.execute(httpget);
+			HttpResponse httpresponse = httpclient.execute(httpget)
 			
 			InputStream inputStream = httpresponse.getEntity().getContent()
 			

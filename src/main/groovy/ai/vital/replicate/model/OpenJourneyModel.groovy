@@ -67,6 +67,7 @@ Random seed. Leave blank to randomize the seed
 		
 		Map p = [:]
 		
+		p["prompt"] = String.class
 		p["width"] = Integer.class
 		p["height"] = Integer.class
 		p["num_outputs"] = Integer.class
@@ -91,7 +92,7 @@ Random seed. Leave blank to randomize the seed
 		
 		Map m = [:]
 		
-		
+		m["prompt"] = prompt
 		m["width"] = width
 		m["height"] = height
 		m["num_outputs"] = numOutputs
