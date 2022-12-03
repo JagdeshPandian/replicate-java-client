@@ -2,11 +2,11 @@ package ai.vital.replicate.api
 
 class ReplicateRequest {
 	
-	String modelName
+	public String modelName
 	
-	String modelVersion
+	public String modelVersion
 	
-	String requestJSON
+	public String requestJSON
 	
 	public ReplicateRequest(String modelName, String modelVersion, String requestJSON) {
 		
