@@ -24,7 +24,7 @@
 		
 		<groovy.groupId>org.codehaus.groovy</groovy.groupId>
 		<groovy.artifactId>groovy-all</groovy.artifactId>
-		<groovy.version>2.5.1</groovy.version>
+		<groovy.version>3.0.9</groovy.version>
 		<groovy.type>pom</groovy.type>
 		<groovy.scope>provided</groovy.scope>
 		
