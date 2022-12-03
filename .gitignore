@@ -1,0 +1,12 @@
+.classpath
+.project
+.settings/
+
+target/
+outputImages/*.png
+
+src-groovy-patch/
+
+config/*.config
+config/*.conf
+
