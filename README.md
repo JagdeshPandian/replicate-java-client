@@ -1,3 +1,10 @@
+# code migrated
+
+this code is being migrated to this repo:
+
+https://github.com/vital-ai/haley-saas-model-clients
+
+
 # replicate-java-client
 
 This is an early stage implementation of the Replicate.com HTTP API to utilize models hosted on Replicate.com.
